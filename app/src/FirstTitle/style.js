@@ -2,8 +2,11 @@ import styled from 'styled-components'
 import  Menu  from '@material-ui/core/Menu'
 
 export const BoxWrapper = styled.div`
-width: 1280px;
-height: 582px;
+display:grid;
+grid-template-columns:30px 1fr 1fr;
+align-items: center;
+justify-items: center;
+justify-content:space-around;
 background-color: rgba(6, 52, 71, 0.45);
 box-sizing: border-box;
 `
