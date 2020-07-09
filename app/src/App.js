@@ -3,6 +3,7 @@ import FirstTitle from './FirstTitle/FirstTitle';
 import AboutMe from './AboutMe/AbouteMe';
 import WhatIDo from './WhatIDo/WhatIDo';
 import Education from './Education/Education';
+import Projects from './Projects/Projects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <AboutMe/>
       <WhatIDo/>
       <Education/>
+      <Projects/>
     </div>
   );
 }
