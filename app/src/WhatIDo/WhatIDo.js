@@ -10,8 +10,7 @@ const WhatIDo = () => {
         </S.Title>
       </S.TitleWrapper>
       <S.StackWrapper>
-        <div>
-          <S.Title class="Front-end">
+          <S.Title>
             Front-end
         </S.Title>
           <S.Paragraph>
@@ -23,9 +22,7 @@ const WhatIDo = () => {
             seguindo princípio de
             Mobile First.
         </S.Paragraph>
-        </div>
-        <div>
-          <S.Title className="Back-end">
+          <S.Title >
             Back-end
         </S.Title>
           <S.Paragraph>
@@ -35,9 +32,7 @@ const WhatIDo = () => {
             comunicação com front-end
             seguindo princípio de Clean Code.
         </S.Paragraph>
-        </div>
       </S.StackWrapper>
-
     </S.MainWrapper>
   )
 }
