@@ -2,9 +2,10 @@ import styled from 'styled-components'
 import Typography from '@material-ui/core/Typography'
 
 export const MainWrapper = styled.div`
-width: 1280px;
 height: 438px;
 background-color: #063447;
+display: flex;
+justify-content: space-between;
 `
 
 export const TitleWrapper = styled(Typography)`

@@ -1,14 +1,17 @@
 import styled from 'styled-components'
 
 export const MainDiv = styled.div`
-height: 1284px;
 background-color: #ffffff;
 display:flex;
+flex-direction: column;
+margin: 16px;
+
 `
 
 export const MainTitle = styled.h1`
-width: 183px;
-height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
 font-family: Montserrat;
 font-size: 25px;
 font-weight: bold;
@@ -18,6 +21,12 @@ line-height: normal;
 letter-spacing: -0.15px;
 text-align: center;
 color: #4eaccf;
+`
+
+export const FirstChild = styled.div`
+display:flex;
+align-items: center;
+justify-content: center;
 `
 
 export const Box = styled.div`
@@ -80,3 +89,11 @@ border-radius: 8px;
 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 background-color: #4eaccf;
 ` 
+
+export const ButtonP = styled.button`
+width: 150px;
+height: 30px;
+border-radius: 8px;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+background-color: #063447;
+`
