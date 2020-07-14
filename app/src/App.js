@@ -6,10 +6,12 @@ import Education from './Education/Education';
 import Projects from './Projects/Projects';
 import HireMe from './HireMe/HireMe';
 import Footer from './Footer/Footer';
+import AppBar from './AppBar/AppBar';
 
 function App() {
   return (
     <div>
+      <AppBar/>
       <FirstTitle/>
       <AboutMe/>
       <WhatIDo/>
