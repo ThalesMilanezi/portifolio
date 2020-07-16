@@ -4,15 +4,10 @@ import * as S from './style'
 const WhatIDo = () => {
   return (
     <S.MainWrapper>
-      <S.TitleWrapper>
-        <S.Title>
-          O que eu faço?
-        </S.Title>
-      </S.TitleWrapper>
+      <S.TitleWrapper>Meus Conhecimentos</S.TitleWrapper>
       <S.StackWrapper>
-          <S.Title>
-            Front-end
-        </S.Title>
+        <S.FrontWrapper>
+          <S.Title>Front-end</S.Title>
           <S.Paragraph>
             Desenvolvimento de aplicações
             web utilizando HTML, CSS e
@@ -22,16 +17,17 @@ const WhatIDo = () => {
             seguindo princípio de
             Mobile First.
         </S.Paragraph>
-          <S.Title >
-            Back-end
-        </S.Title>
-          <S.Paragraph>
+        </S.FrontWrapper>
+        <S.BackWrapper>
+          <S.Title >Back-end</S.Title>
+          <S.Paragraph2>
             Aplicações utilizando NodeJS,
             Typescript e MySQL.
             Criação de API´s para
             comunicação com front-end
             seguindo princípio de Clean Code.
-        </S.Paragraph>
+        </S.Paragraph2>
+        </S.BackWrapper>
       </S.StackWrapper>
     </S.MainWrapper>
   )

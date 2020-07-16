@@ -20,17 +20,17 @@ font-style: normal;
 line-height: normal;
 letter-spacing: -0.15px;
 text-align: center;
-color: #4eaccf;
+color: #45525b;
 `
 
 export const FirstChild = styled.div`
-display:flex;
+display:grid;
 align-items: center;
 justify-content: center;
 `
 
 export const Box = styled.div`
-
+display:flex;
 `
 
 export const ImageWrapper = styled.div`

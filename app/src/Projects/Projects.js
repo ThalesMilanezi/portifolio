@@ -2,13 +2,16 @@ import React from 'react'
 import * as S from './style'
 
 const Projects = () => {
+  const fotoLabook = <S.ImageStyled src={require('../assets/LABOOK.gif')} alt='foto Labook' />
+  const fotoCookenu = <S.ImageStyled src={require('../assets/Cookenu.gif')} alt='foto Cookenu' />
+  const fotoIfuture = <S.ImageStyled src={require('../assets/IFuture2.gif')} alt='foto Ifuture' />
   return (
     <S.MainDiv>
       <S.MainTitle>Meus Projetos</S.MainTitle>
       <S.FirstChild>
         <S.Box>
           <S.ImageWrapper>
-            <S.ImageStyled />
+            {fotoLabook}
           </S.ImageWrapper>
           <S.ProjectTitle>Labook</S.ProjectTitle>
           <S.Subtitle>Back-end</S.Subtitle>
@@ -20,12 +23,12 @@ const Projects = () => {
             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
         </S.ParagraphStyled>
-          <a hrf=''><S.Button>Ver no Github</S.Button></a>
+          <a href='https://github.com/ThalesMilanezi/Labook-Backend'><S.Button>Ver no Github</S.Button></a>
         </S.Box>
 
         <S.Box>
           <S.ImageWrapper>
-            <S.ImageStyled />
+            {fotoCookenu}
           </S.ImageWrapper>
           <S.ProjectTitle>Cookenu</S.ProjectTitle>
           <S.Subtitle>Back-end</S.Subtitle>
@@ -37,11 +40,11 @@ const Projects = () => {
             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
         </S.ParagraphStyled>
-          <a hrf=''><S.Button>Ver no Github</S.Button></a>
+          <a href='https://github.com/ThalesMilanezi/Cookenu-Backend'><S.Button>Ver no Github</S.Button></a>
         </S.Box>
         <S.Box>
           <S.ImageWrapper>
-            <S.ImageStyled />
+            {fotoIfuture}
           </S.ImageWrapper>
           <S.ProjectTitle>Ifuture</S.ProjectTitle>
           <S.Subtitle>Front-end</S.Subtitle>
@@ -53,11 +56,11 @@ const Projects = () => {
             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
         </S.ParagraphStyled>
-          <a hrf=''><S.Button>Ver no Github</S.Button></a>
+          <a href='https://github.com/ThalesMilanezi/Ifuture-frontend'><S.Button>Ver no Github</S.Button></a>
         </S.Box>
       </S.FirstChild>
       <S.FirstChild>
-        <S.ButtonP>Mais Projetos</S.ButtonP>
+        <a href="https://github.com/ThalesMilanezi"><S.ButtonP>Mais Projetos</S.ButtonP></a>
       </S.FirstChild>
     </S.MainDiv>
   )
