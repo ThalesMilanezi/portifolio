@@ -4,7 +4,7 @@ export const MainDiv = styled.div`
 background-color: #ffffff;
 display:flex;
 flex-direction: column;
-margin: 16px;
+/* margin: 16px; */
 
 `
 
@@ -27,27 +27,37 @@ export const FirstChild = styled.div`
 display:grid;
 align-items: center;
 justify-content: center;
+gap:28px;
+margin: 12px;
+padding:12px;
 `
 
 export const Box = styled.div`
-display:flex;
+display:grid;
+grid-template-columns: 1fr 1fr;
+gap: 72px;
+justify-content: space-around;
+padding:10px;
 `
 
 export const ImageWrapper = styled.div`
+display:flex;
+justify-content: center;
+align-items:center;
 
 `
 
 export const ImageStyled = styled.img`
 width: 312px;
-height: 216px;
+height: 50vh;
 object-fit: contain;
 `
 
 export const ProjectTitle = styled.h1`
 width: 172px;
-height: 52px;
+height: 32px;
 font-family: Montserrat;
-font-size: 42px;
+font-size: 62px;
 font-weight: bold;
 font-stretch: normal;
 font-style: normal;
@@ -88,12 +98,20 @@ height: 30px;
 border-radius: 8px;
 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 background-color: #4eaccf;
-` 
+color: white;
+`
 
 export const ButtonP = styled.button`
 width: 150px;
 height: 30px;
 border-radius: 8px;
 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-background-color: #063447;
+background-color: #8d1c31;
+color:white;
+`
+
+export const WriteWrapper = styled.div`
+display: flex;
+flex-direction:column;
+
 `
