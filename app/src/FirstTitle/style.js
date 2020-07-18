@@ -3,17 +3,15 @@ import  Menu  from '@material-ui/core/Menu'
 
 export const BoxWrapper = styled.div`
 display:grid;
-grid-template-columns:30px 1fr 1fr;
+grid-template-columns:1fr 1fr 100px ;
 align-items: center;
-justify-items: center;
 justify-content:space-around;
-background-color: rgba(6, 52, 71, 0.45);
+background-color: #8d1c31;
 box-sizing: border-box;
+margin:0;
 `
 
 export const MainTitle = styled.div`
-width: 317px;
-height: 122px;
 font-family: Montserrat;
 font-size: 50px;
 font-weight: bold;
@@ -21,24 +19,58 @@ font-stretch: normal;
 font-style: normal;
 line-height: normal;
 letter-spacing: -0.29px;
-color: #ffffff;
+color: #d97824;
+`
+
+export const Paragraph = styled.div`
+  height: 29px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  color: #ffffff;
+  margin:16px;
+
+`
+export const Paragraph2 = styled.p`
+  height: 19px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  color: #ffffff;
+  margin:16px;
+
 `
 
 export const ImgWrapper = styled.img`
-max-width: 20vw;
+width: 498px;
+height: 520px;
 `
 export const ImgLogoWrapper = styled.img`
-width: 30px;
-height: 27px;
+height: 36px;
 object-fit: contain;
+
 `
 
 export const MidiasWrapper = styled.div`
-display: flex;
-flex-direction: column;
+display: grid;
+gap:32px;
+margin-left:32px;
 `
 
 export const MenuWrapper = styled(Menu)`
 display:flex;
 flex-direction: row;
+`
+
+export const MiddleWrapper = styled.div`
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
 `

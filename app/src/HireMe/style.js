@@ -1,22 +1,15 @@
 import styled from 'styled-components'
 
-export const mainWrapper = styled.div`
-display: flex;
-flex-direction: column;
-justify-content:center;
+export const MainWrapper = styled.div`
+display: grid;
+gap: 42px;
+justify-content: center;
 align-items: center;
-background-color: #063447;
+background-color:#8d1c31;
+padding:12px;
 `
 
 export const TitleWrapper = styled.div`
-
-`
-
-export const TextWrapper = styled.div`
-
-`
-
-export const SocialWrapper = styled.div`
 
 `
 export const Title = styled.h1`
@@ -31,9 +24,15 @@ text-align: center;
 color: #ffffff;
 `
 
+export const TextWrapper = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+`
 export const Paragraph = styled.p`
- font-family: Montserrat;
-font-size: 18px;
+font-family: Montserrat;
+font-size: 20px;
 font-weight: normal;
 font-stretch: normal;
 font-style: normal;
@@ -41,10 +40,24 @@ line-height: normal;
 letter-spacing: -0.24px;
 text-align: center;
 color: #ffffff;
+
+a {
+  text-decoration:none;
+  color:white;
+}
 `
 
+export const SocialWrapper = styled.div`
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-content:space-between;
+margin-left:20%;
+margin-bottom:3%;
+`
+
+
 export const Medias = styled.img`
-width: 39px;
-height: 39px;
+width: 40px;
+height: 38px;
 object-fit: contain;
 `

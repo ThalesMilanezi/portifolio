@@ -4,6 +4,7 @@ export const MainWrapper = styled.div`
 display: flex;
 height: 59.1px;
 background-color: #4eaccf;
+
 `
 
 export const TextWrapper = styled.p`
@@ -16,4 +17,5 @@ line-height: normal;
 letter-spacing: -0.24px;
 text-align: center;
 color: #ffffff;
+margin-left:3%;
 `

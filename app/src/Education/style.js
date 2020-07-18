@@ -1,10 +1,12 @@
 import styled from 'styled-components'
 
 export const DivWrapper = styled.div`
-display: flex;
-flex-direction: row;
 height: 441px;
-background-color: #292929;
+background-color: #d97824;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 `
 
 export const MainTitle = styled.h1`
@@ -24,24 +26,36 @@ export const MainTitle = styled.h1`
 export const Box = styled.div`
 width: 327px;
 height: 268px;
-border-radius: 8px;
-background-color: #ffffff;
+padding:16px;
 `
 
-export const TitleBox = styled.h2`
+export const Title = styled.h2`
 width: 262px;
 height: 50px;
 font-family: Montserrat;
 font-size: 21px;
+color: #ffffff;
+
 `
 
 export const SubTitle = styled.h5`
+  color: #ffffff;
 
 `
 export const Paragraph = styled.p`
-width: 267px;
-height: 122px;
+width: 23vw;
 font-family: Montserrat;
-font-size: 12px;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: -0.16px;
+color: #ffffff;
+`
 
+export const EducationWrapper = styled.div`
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 60px;
 `
