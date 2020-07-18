@@ -8,9 +8,9 @@ const AppBar = () => {
         Thales
       </S.NameWrapper>
       <S.MenuWrapper>
-        <a href=''><S.MenuItems>Quem Sou</S.MenuItems></a>
-        <a href=''><S.MenuItems>Projetos</S.MenuItems></a>
-        <a href=''><S.MenuItems>Contato</S.MenuItems></a>
+        <a href='#sobremim'><S.MenuItems>Quem Sou</S.MenuItems></a>
+        <a href='#projetos'><S.MenuItems>Projetos</S.MenuItems></a>
+        <a href='#contato'><S.MenuItems>Contato</S.MenuItems></a>
       </S.MenuWrapper>
     </S.BarWrapper>
   )

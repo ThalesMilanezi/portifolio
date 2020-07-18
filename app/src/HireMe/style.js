@@ -40,6 +40,11 @@ line-height: normal;
 letter-spacing: -0.24px;
 text-align: center;
 color: #ffffff;
+
+a {
+  text-decoration:none;
+  color:white;
+}
 `
 
 export const SocialWrapper = styled.div`

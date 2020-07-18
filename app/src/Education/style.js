@@ -29,7 +29,7 @@ height: 268px;
 padding:16px;
 `
 
-export const TitleBox = styled.h2`
+export const Title = styled.h2`
 width: 262px;
 height: 50px;
 font-family: Montserrat;

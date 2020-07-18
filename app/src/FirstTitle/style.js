@@ -6,14 +6,12 @@ display:grid;
 grid-template-columns:1fr 1fr 100px ;
 align-items: center;
 justify-content:space-around;
-height: 520px;
 background-color: #8d1c31;
 box-sizing: border-box;
 margin:0;
 `
 
 export const MainTitle = styled.div`
-height: 122px;
 font-family: Montserrat;
 font-size: 50px;
 font-weight: bold;
@@ -35,6 +33,7 @@ export const Paragraph = styled.div`
   letter-spacing: -0.32px;
   color: #ffffff;
   margin:16px;
+
 `
 export const Paragraph2 = styled.p`
   height: 19px;
@@ -55,7 +54,7 @@ width: 498px;
 height: 520px;
 `
 export const ImgLogoWrapper = styled.img`
-height: 27px;
+height: 36px;
 object-fit: contain;
 
 `
@@ -73,5 +72,5 @@ flex-direction: row;
 
 export const MiddleWrapper = styled.div`
 display: grid;
-gap:12px;
+grid-template-rows: 1fr 1fr 1fr 1fr;
 `
