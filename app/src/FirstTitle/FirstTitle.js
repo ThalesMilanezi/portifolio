@@ -5,7 +5,7 @@ import * as S from './style'
 const FirstTitle = () => {
   const foto = <S.ImgWrapper src={require('../assets/fotothales.jpg')} alt='foto' />
   return (
-    <S.BoxWrapper>
+    <S.BoxWrapper id='thales'>
       {foto}
       <S.MiddleWrapper>
         <S.MainTitle>Olá! Eu sou </S.MainTitle>
