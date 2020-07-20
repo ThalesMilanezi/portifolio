@@ -24,8 +24,6 @@ export const MainTitle = styled.h1`
 `
 
 export const Box = styled.div`
-width: 327px;
-height: 268px;
 padding:16px;
 `
 

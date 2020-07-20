@@ -1,10 +1,15 @@
 import styled from 'styled-components'
 
 export const MainWrapper = styled.div`
-height: 438px;
 background-color: #063447;
 display: grid;
 grid-template-columns: 1fr 1fr;
+`
+
+export const BoxWrite = styled.div`
+display:grid;
+grid-template-rows: 10vh 20vh 15vh 10vh;
+margin: 0 auto;
 `
 
 export const TitleWrapper = styled.p`
@@ -49,12 +54,6 @@ box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 background-color: #bf213e;
 `
 
-export const BoxWrite = styled.div`
-display:grid;
-grid-template-rows: 20vh 20vh 15vh 10vh;
-margin: 0 auto;
-
-`
 
 export const BoxImg = styled.div`
 margin: 0 auto;

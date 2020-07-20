@@ -18,12 +18,11 @@ const Projects = () => {
             <S.ProjectTitle>Labook</S.ProjectTitle>
             <S.Subtitle>Back-end</S.Subtitle>
             <S.ParagraphStyled>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+            Esse projeto foi desenvolvido para ser uma aplicação parecida com o Facebook, 
+            ele é uma rede social com o objetivo de promover a conexão e interação entre 
+            seus mais diversos usuários. Os usuários podem criar posts de dois tipos ("evento" ou "normal), 
+            comentá-los e curti-los também, nessa aplicação você pode: - Cadastrar usuários - logar - 
+            fazer amizade como também desfazer -  ver todo seu feed.
             </S.ParagraphStyled>
             <a href='https://github.com/ThalesMilanezi/Labook-Backend'><S.Button>Ver no Github</S.Button></a>
           </S.WriteWrapper>
@@ -34,12 +33,14 @@ const Projects = () => {
             <S.ProjectTitle>Cookenu</S.ProjectTitle>
             <S.Subtitle>Back-end</S.Subtitle>
             <S.ParagraphStyled>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+            Esse produto também é rede social, na qual os usuários podem dividir informações relevantes sobre comidas e receitas que tenham experimentado. 
+            Ela possui todas as funcionalidades mais comuns em redes sociais:
+	          - cadatros/login de usuários
+	          - Criar uma receita
+	          - Ver uma receita
+	          - Deletar uma receita
+	          - Seguir/Deixar de seguir um usuário
+            - Ver o feed com todas as receitas ou selecionar alguma especifica
             </S.ParagraphStyled>
             <a href='https://github.com/ThalesMilanezi/Cookenu-Backend'><S.Button>Ver no Github</S.Button></a>
           </S.WriteWrapper>
@@ -52,12 +53,10 @@ const Projects = () => {
             <S.ProjectTitle>Ifuture</S.ProjectTitle>
             <S.Subtitle>Front-end</S.Subtitle>
             <S.ParagraphStyled>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+            Projeto frontend baseado nos famosos aplicativos de delivery de comida.
+            Aplicação desenvolvida com o framework React e diversas outras tecnologias, nesse 
+            projeto é possível: cadastrar e logar usuários - ver perfil do usuário - ver um 
+            restaurante específico e seus detalhes - fazer um pedido - ver seu histórico de pedidos, entre outros.
             </S.ParagraphStyled>
             <a href='https://github.com/ThalesMilanezi/Ifuture-frontend'><S.Button>Ver no Github</S.Button></a>
           </S.WriteWrapper>
