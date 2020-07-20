@@ -40,7 +40,7 @@ grid-template-columns: 1fr 1fr;
 
 export const Paragraph = styled.p`
 font-family: Montserrat;
-font-size: 16px;
+font-size: 20px;
 font-weight: normal;
 font-stretch: normal;
 font-style: normal;

@@ -3,8 +3,7 @@ import styled from 'styled-components'
 export const BarWrapper = styled.div`
 display: flex;
 justify-content:space-between;
-border-right:0.5pt  solid black;
-border-top:0.5pt  solid black;
+margin-left:51px;
 `
 
 export const NameWrapper = styled.p`

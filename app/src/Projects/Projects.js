@@ -6,7 +6,7 @@ const Projects = () => {
   const fotoCookenu = <S.ImageStyled src={require('../assets/Cookenu.gif')} alt='foto Cookenu' />
   const fotoIfuture = <S.ImageStyled src={require('../assets/IFuture2.gif')} alt='foto Ifuture' />
   return (
-    <S.MainDiv>
+    <S.MainDiv id='projetos'>
       
       <S.MainTitle>Meus Projetos</S.MainTitle>
 
@@ -29,6 +29,7 @@ const Projects = () => {
         </S.Box>
 
         <S.Box>
+          <S.ImageWrapper>{fotoCookenu}</S.ImageWrapper>
           <S.WriteWrapper>
             <S.ProjectTitle>Cookenu</S.ProjectTitle>
             <S.Subtitle>Back-end</S.Subtitle>
@@ -44,13 +45,12 @@ const Projects = () => {
             </S.ParagraphStyled>
             <a href='https://github.com/ThalesMilanezi/Cookenu-Backend'><S.Button>Ver no Github</S.Button></a>
           </S.WriteWrapper>
-          <S.ImageWrapper>{fotoCookenu}</S.ImageWrapper>
         </S.Box>
 
         <S.Box>
           <S.ImageWrapper>{fotoIfuture}</S.ImageWrapper>
           <S.WriteWrapper>
-            <S.ProjectTitle>Ifuture</S.ProjectTitle>
+            <S.ProjectTitle>IFuture</S.ProjectTitle>
             <S.Subtitle>Front-end</S.Subtitle>
             <S.ParagraphStyled>
             Projeto frontend baseado nos famosos aplicativos de delivery de comida.

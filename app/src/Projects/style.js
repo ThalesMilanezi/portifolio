@@ -4,7 +4,6 @@ export const MainDiv = styled.div`
 background-color: #ffffff;
 display:flex;
 flex-direction: column;
-/* margin: 16px; */
 
 `
 
@@ -26,7 +25,7 @@ color: #45525b;
 export const FirstChild = styled.div`
 display:grid;
 align-items: center;
-justify-content: center;
+justify-content: space-around;
 gap:28px;
 margin: 12px;
 padding:12px;
@@ -67,11 +66,9 @@ color: #063447;
 `
 
 export const Subtitle = styled.h4`
-width: 104px;
-height: 25px;
 font-family: Montserrat;
-font-size: 21px;
-font-weight: normal;
+font-size: 24px;
+font-weight: bold;
 font-stretch: normal;
 font-style: normal;
 line-height: normal;
@@ -80,10 +77,8 @@ color: #063447;
 `
 
 export const ParagraphStyled = styled.p`
-width: 368px;
-height: 122px;
 font-family: Montserrat;
-font-size: 12px;
+font-size: 20px;
 font-weight: normal;
 font-stretch: normal;
 font-style: normal;

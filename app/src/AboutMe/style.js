@@ -8,8 +8,11 @@ grid-template-columns: 1fr 1fr;
 
 export const BoxWrite = styled.div`
 display:grid;
-grid-template-rows: 10vh 20vh 15vh 10vh;
-margin: 0 auto;
+grid-template-rows: 15vh 38vh 20vh 8vh;
+margin-left:42px;
+padding:15px;
+gap:5px;
+
 `
 
 export const TitleWrapper = styled.p`
@@ -24,10 +27,8 @@ color: #ffffff;
 `
 
 export const ParagraphStyled = styled.p`
-width: 368px;
-height: 122px;
 font-family: Montserrat;
-font-size: 12px;
+font-size: 18px;
 font-weight: normal;
 font-stretch: normal;
 font-style: normal;
@@ -37,7 +38,7 @@ color: #ffffff;
 `
 export const ParagraphStyled2 = styled.p`
 font-family: Montserrat;
-font-size: 14px;
+font-size: 18px;
 font-weight: normal;
 font-stretch: normal;
 font-style: normal;
@@ -56,10 +57,12 @@ background-color: #bf213e;
 
 
 export const BoxImg = styled.div`
-margin: 0 auto;
+display:flex;
+justify-content:center;
+align-items:center;
 `
 
 export const ImgWrapper = styled.img`
-height: 350px; 
+height: 60vh; 
 object-fit:contain;
 `

@@ -6,7 +6,7 @@ const AboutMe = () => {
   const foto = <S.ImgWrapper src={require('../assets/negroPc.png')} alt='foto' />
 
   return (
-    <S.MainWrapper>
+    <S.MainWrapper id='sobremim'>
       <S.BoxWrite>
         <S.TitleWrapper>Sobre Mim</S.TitleWrapper>
         <S.ParagraphStyled>
@@ -19,7 +19,7 @@ const AboutMe = () => {
         <S.ParagraphStyled2>
           | Node.Js | MySQL | HMTL | CSS | JAVASCRIPT | TYPESCRIPT
         </S.ParagraphStyled2>
-        <S.ButtoStyled> CV em PDF</S.ButtoStyled>
+        <a href='https://curriculothales.s3.amazonaws.com/Curr%C3%ADculo+Thales+Fernando+Milanezi+(1).pdf'><S.ButtoStyled> CV em PDF</S.ButtoStyled></a>
       </S.BoxWrite>
       <S.BoxImg>
         {foto}

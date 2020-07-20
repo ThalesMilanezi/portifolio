@@ -10,17 +10,17 @@ align-items:center;
 `
 
 export const MainTitle = styled.h1`
- width: 128px;
-  height: 30px;
-  font-family: Montserrat;
-  font-size: 25px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.15px;
-  text-align: center;
-  color: #ffffff;
+width: 128px;
+height: 30px;
+font-family: Montserrat;
+font-size: 25px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: -0.15px;
+text-align: center;
+color: #ffffff;
 `
 
 export const Box = styled.div`
@@ -28,22 +28,22 @@ padding:16px;
 `
 
 export const Title = styled.h2`
-width: 262px;
 height: 50px;
 font-family: Montserrat;
-font-size: 21px;
+font-size: 23px;
 color: #ffffff;
 
 `
 
 export const SubTitle = styled.h5`
-  color: #ffffff;
+font-size: 20px;
+color: #ffffff;
 
 `
 export const Paragraph = styled.p`
-width: 23vw;
+width: 25vw;
 font-family: Montserrat;
-font-size: 14px;
+font-size: 18px;
 font-weight: normal;
 font-stretch: normal;
 font-style: normal;
