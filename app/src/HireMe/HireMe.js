@@ -4,7 +4,7 @@ import * as S from './style'
 
 const HireMe = () => {
   return (
-    <S.MainWrapper>
+    <S.MainWrapper id='contato'>
 
       <S.TitleWrapper>
         <S.Title>Contrate-me!</S.Title>

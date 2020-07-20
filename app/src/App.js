@@ -7,10 +7,12 @@ import Projects from './Projects/Projects';
 import HireMe from './HireMe/HireMe';
 import Footer from './Footer/Footer';
 import AppBar from './AppBar/AppBar';
+import { GlobalStyled } from './GlobalStyle/GlobalStyle';
 
 function App() {
   return (
     <div>
+      <GlobalStyled/>
       <AppBar/>
       <FirstTitle/>
       <AboutMe/>
